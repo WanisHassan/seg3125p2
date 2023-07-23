@@ -1,0 +1,7 @@
+.shipping-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    padding: 5rem;
+    max-width: 100%;
+}

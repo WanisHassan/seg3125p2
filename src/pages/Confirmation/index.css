@@ -1,0 +1,44 @@
+.confirmation-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.confirmation-container h4 {
+  color: gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.container div {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.container div span {
+  font-weight: normal;
+  font-family: monospace;
+}
+
+.container table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.container table thead tr th{
+    text-align: left;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.container table tbody tr td img{
+    width: 100px;
+    height: 100px;
+}
+

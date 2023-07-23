@@ -1,0 +1,33 @@
+.dropdown {
+  position: absolute;
+  background: white;
+  padding: 15px 0;
+  width: 12rem;
+  top: 100%;
+  margin-left: 1rem;
+  border-radius: 10px;
+  font-weight: 400;
+  display: none;
+  z-index: 9999;
+}
+
+.my-auto {
+  margin: auto;
+}
+
+.nav-container:hover .dropdown {
+  display: block;
+}
+
+.nav-container .dropdown:hover {
+  display: block;
+}
+
+.dropdown-item{
+    padding: 0.5rem 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000 !important;
+}

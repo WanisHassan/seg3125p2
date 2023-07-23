@@ -1,0 +1,10 @@
+.container {
+  padding: 1.5rem 3rem;
+}
+.carousal-shop-now {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 0;
+  margin-bottom: 35px;
+}

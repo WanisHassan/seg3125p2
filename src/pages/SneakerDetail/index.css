@@ -1,0 +1,57 @@
+.sneaker-details-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.sneaker-details-image-container{
+    padding: 1rem;
+    max-height: 500px;
+}
+
+.sneaker-details-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+h3 span{
+    color: #777;
+}
+
+h3 .price{
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.reviews-container{
+    padding: 1rem;
+}   
+.reviews-container h2{
+    text-align: center;
+}
+
+.reviews-container .login-message{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.reviews-list{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-list .review{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.seller-ratings{
+    display: flex;
+    align-items: center;
+}

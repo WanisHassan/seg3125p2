@@ -1,0 +1,17 @@
+{
+  "name": "KickConnect",
+  "navLinks": [
+    {
+      "name": "Home"
+    },
+    {
+      "name": "About"
+    },
+    {
+      "name": "Contact"
+    },
+    {
+      "name": "Profile"
+    }
+  ]
+}

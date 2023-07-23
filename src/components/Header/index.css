@@ -1,0 +1,43 @@
+.header-wrapper {
+  padding: 10px 25px;
+  background-color: #fe8484;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: auto 0;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: underline;
+  color: #fff;
+  margin: auto 1rem;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}

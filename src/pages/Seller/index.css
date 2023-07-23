@@ -1,0 +1,44 @@
+.seller-container-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    padding: 5rem;
+    max-width: 100%;
+}
+
+.seller-chat-message-right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 0;
+    background-color: #fe8484;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.listings-list{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.listings-list .listing{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.listings-list .listing img{
+    width: 100px;
+    height: 100px;
+}
+
+.listings-list .listing p{
+    margin-left: 1rem;
+    border-right: 2px solid #000;
+    padding-right: 1rem;
+}
